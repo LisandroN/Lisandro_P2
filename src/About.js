@@ -9,7 +9,10 @@ function About() {
       <Nav/>
       <div >
       <h1 className= "title">About </h1>
-      <p className= "text"> Hey! My name is Lisandro Neris (he/him) and I am a Graphic Designer and life enthusiast based in New York City, specializing in Logo branding and design but who is also not afraid to indulge in other creative works. I am currently doing freelance work and pursuing a Bachelor's Degree in Computer Graphics and Imaging from CUNY, Lehman College. </p>
+      <p className= "text"> 
+      There are two kinds of people in the world: Organized list-makers..and everyone else. Lists make everything better. 
+      When it comes to grocery shopping, having a list keeps you organized and on-budget. You can also use this List-App to create and save your favorite recepies. 
+       </p>
       
     </div>
     
