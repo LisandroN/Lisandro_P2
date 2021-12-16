@@ -20,7 +20,7 @@ currentItem:{
  render() {
    return ( <div> 
    <Nav/>
-            <h1 className= "homeTitle"> Welcome To Your To-Do App </h1>
+            <h1 className= "homeTitle"> Welcome To Your very own To-Do App </h1>
             
     
   <div className = "main">
