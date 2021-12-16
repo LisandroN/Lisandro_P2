@@ -2,14 +2,53 @@
   text-align: center;
 }
 
+
+.main {
+  background-color: burlywood;
+  min-height: 500px;
+  width: 1000px;
+  margin: 40px auto;
+  border-radius: 8px;
+}
+
+
+#to-do-form input{
+  background-color: white;
+  border: 0;
+  width: 400px;
+  height: 80px;
+  padding: 0 100px;
+  margin: 40px;
+  font-size: 24px;
+  border-radius: 10px;
+}
+
+
+#to-do-form input:focus{
+outline: none;
+}
+
+#to-do-form button{
+  width: 100px;
+  height: 80px;
+  border-radius: 5px;
+  background-color: rgb(247, 114, 136);
+  color: white;
+  border:0;
+  font-size: 24px;
+cursor: pointer;
+font-weight: bolder;
+
+}
+
 Nav{
   display: flex; 
   justify-content: round;
   align-items: center;
   min-height: 10vh;
-  background-color: black;
-  color:white; 
-  
+  background-color: salmon;
+  color: white; 
+  font-size:x-large;
 }
 
 .nav-links{
@@ -35,7 +74,7 @@ Nav{
 }
 .homeTitle{
 display: flex center ;
-background-color: black;
+background-color: burlywood;
 color: white;
 padding-top: 80px;
 padding-bottom: 80px;
