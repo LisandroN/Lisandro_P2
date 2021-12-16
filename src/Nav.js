@@ -9,21 +9,16 @@ class Nav extends React.Component{
 return  <div> 
     <nav>
       
-          <h3 > Lisandro Neris's Portfolio </h3>
+          <h3 > ***** My To-Do's *****</h3>
 
           <ul className= "nav-links">
-            <Link to= '/about' style={{ textDecoration: 'none', color: 'white' }}> 
+           
+            <Link to= '/home' style={{ textDecoration: 'none', color: 'white' }}> 
+              <li>To-Do's</li>
+            </Link> 
+           <Link to= '/about' style={{ textDecoration: 'none', color: 'white' }}> 
               <li>About</li>
             </Link> 
-            <Link to= '/home' style={{ textDecoration: 'none', color: 'white' }}> 
-              <li>Home</li>
-            </Link> 
-            <Link to= '/projects'style={{ textDecoration: 'none', color: 'white' }}> 
-              <li>Projects</li>
-              </Link> 
-              <Link to= '/contact'style={{ textDecoration: 'none', color: 'white'}}> 
-              <li>Contact</li>
-              </Link> 
 
           </ul>
       </nav>
